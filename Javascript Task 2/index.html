@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		
+	<div class="header">
+		<h1>insta<span style="color:#8acd03;">C<span>art</h1>
+		<button type="button" id="cartBtn" class="image-button">
+			<img src="C:\Users\gdevarapalli\Desktop\Javascript Task 2\images\OIP.jfif">
+		</button>
+		
+	</div>
+
+	<div class = "container ">
+		<div class= "img-container">
+			<div class= "product" id="p1">
+				<p>Avacado:</p>
+				<img src="./images/an-avocado-cut-in-half-showing-the-seed-in-the-middle.jpg" alt="">
+				<p>Price: 100</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a1" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+
+			</div>
+			<div class= "product " id="p2">
+				<p>Kiwi:</p>
+				<img src="./images/whole-kiwi-fruit-and-half-a-kiwi-showing-flesh.jpg">
+				<p>Price: 50</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a2" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p3">
+				<p>BlueBerries:</p>
+				<img src="images/a-small-bowl-of-blueberries.jpg">
+				<p>Price: 85</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a3" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p4">
+				<p>Longan:</p>
+				<img src="images/peeled-and-unpeeled-longan-fruit.jpg">
+				<p>Price: 75</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a4" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p5">
+				<p>Blackberries:</p>
+				<img src="images/blackberries-still-attached-to-their-leaves.jpg">
+				<p>Price: 150</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a5" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p6">
+				<p>Mango:</p>
+				<img src="images/whole-mango-and-half-a-mango-showing-flesh.jpg">
+				<p>Price: 110</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a6" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p7">
+				<p>Guava:</p>
+				<img src="images/whole-and-half-guava-fruit-showing-flesh-skin-and-seeds.jpg">
+				<p>Price: 60</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a7" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p8">
+				<p>Cherries:</p>
+				<img src="images/fresh-red-sweet-cherries-with-their-stems-and-leaves.jpg">
+				<p>Price: 80</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a8" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p9">
+				<p>Grapes:</p>
+				<img src="images/green-and-purple-grapes.jpg">
+				<p>Price: 50</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a9" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p10">
+				<p>Apples:</p>
+				<img src="images/red-and-green-apples.jpg">
+				<p>Price: 50</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a10" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p11">
+				<p>Cranberries:</p>
+				<img src="images/ripe-red-cranberries-with-green-leaves.jpg">
+				<p>Price: 200</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a11" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+			<div class= "product " id="p12">
+				<p>Red Jujube:</p>
+				<img src="images/red-jujube-chinese-date.jpg">
+				<p>Price: 210</p>
+				<div class= "quantity">
+					<button class="minusBtn">-</button>
+					<input type="text" class="textBox" id="a12" value="0">
+					<button class="plusBtn">+</button>
+				</div>
+			</div>
+
+
+		</div>
+		<div class= "cart-container" id="cartTotal">
+			<div id="cart-head">
+				<h1>CheckOut</h1>
+				<button id="deleteBtn">
+					<img src="C:\Users\gdevarapalli\Desktop\Javascript Task 2\images\OIP (1).jfif"><img>
+				</button>
+			</div>
+			<div id="cart-image"></div>
+			<div id="cart-total"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
